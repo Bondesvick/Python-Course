@@ -10,7 +10,8 @@ def power(base, exp):
     elif base == 0:
         return 0
     elif exp < 0:
-        return 1/base * power(base, exp+1)
-    return base * power(base, exp-1)
+        return 1 / base * power(base, exp + 1)
+    return base * power(base, exp - 1)
 
-print(power(4,-1))
+
+print(power(4, -1))
